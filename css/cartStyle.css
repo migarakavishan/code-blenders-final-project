@@ -1,0 +1,29 @@
+:root {
+    --main-color: #0098DA;
+    --orange: #f39c12;
+    --red: #e74c3c;
+    --white: #ffffff;
+    --light-bg: #EFEFEF;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, .2);
+
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.bg{
+    background-color: var(--light-bg);
+}
+
+.container{
+    margin-bottom: 17rem;
+}

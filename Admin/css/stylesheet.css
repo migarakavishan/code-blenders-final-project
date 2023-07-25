@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url('../img/pexels-alena-shekhovtcova-6074923.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.container {
+  width: 500px;
+  padding: 60px;
+  background-color: rgba(255, 255, 255,0.7);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+
+.btn-primary {
+  width: 50%;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: block; /* Set display value to block */
+  margin-left: auto; /* Set left margin to auto */
+  margin-right: auto; /* Set right margin to auto */
+}
+
+
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+

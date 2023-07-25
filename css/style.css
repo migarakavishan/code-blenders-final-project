@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-color: #0098DA;
+    --orange: #f39c12;
+    --red: #e74c3c;
+    --white: #ffffff;
+    --light-bg: #EFEFEF;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, .2);
+
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body, .RegBody{
+    background-color: var(--light-bg);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.btn-login {
+    width: 20%;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    padding: 0.2rem;
+    background-color: var(--main-color);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+#navbar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#navcolor {
+    color: black;
+    margin-left: 10rem;
+    gap: 2rem;
+    font-size: 1.1rem;
+}
+
+.imgbackground {
+    height: 1270px;
+
+}
+
+.search-form form {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.search-form form input {
+    width: 900px;
+    height: 50px;
+    border: 2rem;
+    border-radius: .5rem;
+    color: black;
+    padding-left: 1.4rem;
+
+}
+
+.navbar-brand {
+    margin-left: 8rem;
+}
+
+.search-form form button {
+    border-radius: 0.5rem;
+    width: 50px;
+    background-color: var(--main-color);
+    color: white;
+
+}
+
+.nav1-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    width: 20rem;
+
+
+}
+
+.nav2-icon {
+    padding-top: 1.1rem;
+    margin-right: 20rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+section {
+    padding: 1rem;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.form-container-login form {
+    background-color: var(--white);
+    padding: 4rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    margin: 0 auto;
+    width: 40rem;
+    height: 40rem;
+}
+
+.form-container-login form h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: left;
+    margin-left: 1.5rem;
+    line-height: 7rem;
+}
+
+.form-container-login form p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding-top: 4rem;
+
+}
+
+.form-container-login form .box {
+    margin: 1rem 0;
+    background-color: var(--light-bg);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--black);
+    width: 90%;
+    border-radius: 0.6rem;
+}
+
+.form-container-register form {
+    background-color: var(--white);
+    padding: 4rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    margin: 0 auto;
+    width: 40rem;
+    height: 50rem;
+}
+
+.form-container-register form h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: left;
+    margin-left: 1.5rem;
+    line-height: 7rem;
+}
+
+.form-container-register form p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding-top: 4rem;
+
+}
+
+.form-container-register form .box {
+    margin: 1rem 0;
+    background-color: var(--light-bg);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--black);
+    width: 90%;
+    border-radius: 0.6rem;
+}
+
+.btn-register {
+    width: 50%;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    padding: 0.2rem;
+    background-color: var(--main-color);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.stat{
+    color: #e74c3c;
+}
+
+.redirect{
+    position: relative;
+    bottom: 5%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+  

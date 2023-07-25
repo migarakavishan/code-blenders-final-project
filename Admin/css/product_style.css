@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --main-color:#0098DA;
+   --orange:#f39c12;
+   --red:#e74c3c;
+   --white:#ffffff;
+   --light-bg:#a7a3a3;
+   --border:0.2rem solid var(--black);
+   --box-shadow:0 1.5rem 2rem rgb(0,0,0,.2);
+
+
+}
+
+html{
+   overflow-x: hidden;
+}
+
+.btnn{
+   display: block;
+   width: 50%;
+   cursor: pointer;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   margin-left: 6rem;
+   font-size: 1.2rem;
+   background: var(--main-color);
+   color:var(--white);
+   text-align: center;
+}
+
+
+.message{
+   display: block;
+   padding:1.5rem 1rem;
+   font-size: 1.5rem;
+   color:black;
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.container{
+   max-width: 1200px;
+   padding:2rem;
+   margin:0 auto;
+}
+
+.admin-product-form-container.centered{
+   
+   align-items: center;
+   justify-content: center;
+   min-height: 200vh;
+   
+}
+
+.admin-product-form-container form{
+   max-width: 30rem;
+   margin:0 auto;
+   padding:2rem;
+   border-radius: .5rem;
+   background: #D9D9D9;
+}
+
+.admin-product-form-container form h3{
+   text-transform: uppercase;
+   color:black;
+   margin-bottom: 1rem;
+   text-align: center;
+   font-size: 2.5rem;
+}
+
+.admin-product-form-container form .box{
+   width: 25rem;
+   height: 30%;
+   border-radius: .5rem;
+   
+   font-size: 1.3rem;
+   margin:1rem 0;
+   background: var(--white);
+   text-transform: none;
+}
+
+.product-display{
+   margin:2rem 0;
+}
+
+.product-display .product-display-table{
+   width: 70rem;
+   text-align: center;
+   border-radius: .5rem;
+}
+
+.product-display .product-display-table thead{
+   background: #D9D9D9;
+}
+
+.product-display .product-display-table th{
+   padding:0.5rem;
+   font-size: 1.5rem;
+   color: black;
+}
+
+
+.product-display .product-display-table td{
+   padding:1rem;
+   font-size: 1.5rem;
+   border-bottom: var(--border);
+}
+
+.product-display .product-display-table .btn:first-child{
+   margin-top: 0;
+}
+
+.product-display .product-display-table .btn:last-child{
+   background: var(--red);
+   color: #ffffff;
+}
+
+
+
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .product-display{
+      overflow-y:scroll;
+   }
+
+   .product-display .product-display-table{
+      width: 80rem;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+}

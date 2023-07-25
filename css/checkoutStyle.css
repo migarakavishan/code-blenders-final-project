@@ -1,0 +1,150 @@
+:root {
+  --main-color: #0098da;
+  --orange: #f39c12;
+  --red: #e74c3c;
+  --white: #ffffff;
+  --light-bg: #efefef;
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, 0.2);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.heading {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.placeorder {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.bg {
+  background-color: var(--light-bg);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.hide-arrows::-webkit-inner-spin-button,
+.hide-arrows::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button,
+.number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.checkout-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.checkout-container .display-orders p {
+  margin: 5px 0;
+}
+
+.checkout-container .grand-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.checkout-container .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkout-container .inputBox {
+  flex: 1 1 45%;
+}
+
+.checkout-container .inputBox span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkout-container .inputBox input[type="text"],
+.checkout-container .inputBox input[type="number"],
+.checkout-container .inputBox input[type="email"],
+.checkout-container .inputBox select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* .checkout-container .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-container .btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+*/
+.checkout-container .btn:hover {
+    background-color: #0099dadc;
+} 
+
+.checkout-container .btn {
+  margin-top: 1rem;
+  background-color: var(--main-color);
+  color: var(--light-bg);
+  font-size: 1rem;
+  margin-left: 12rem;
+  border-radius: 4px;
+}
+
+.checkout-container .empty {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.status {
+  background-color: var(--light-bg);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2px;
+}

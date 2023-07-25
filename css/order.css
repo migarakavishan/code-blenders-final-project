@@ -1,0 +1,60 @@
+:root {
+  --main-color: #0098da;
+  --orange: #f39c12;
+  --red: #e74c3c;
+  --white: #ffffff;
+  --light-bg: #efefef;
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, 0.2);
+}
+
+.bg{
+  background-color: var(--light-bg);
+}
+
+.orders {
+  background-color: var(--light-bg);
+}
+
+.empty {
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+  height:  48vh;
+}
+
+.heading {
+  padding-top: 3rem;
+  margin-left: 10rem;
+}
+
+.box-container{
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+
+.orders .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.orders .box-container .box {
+  padding: 1rem 2rem;
+  /* margin-left: 10rem; */
+  border: var(--border);
+  border-radius: 0.5rem;
+  background-color: var(--white);
+}
+
+.orders .box-container .box p {
+  margin: 0.5rem 0;
+  line-height: 1.8;
+  font-size: 1.5rem;
+}
+
+.orders .box-container .box p span {
+  color: var(--main-color);
+}

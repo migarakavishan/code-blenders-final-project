@@ -1,0 +1,58 @@
+
+.about{
+
+    padding: 2rem;
+    background-color: #EFEFEF;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+}
+
+.about .row .image{
+    flex: 1 1 40rem;
+    margin-left: 5rem;
+}
+
+.about .row .image img{
+    width: 80%
+}
+
+.about .row .content{
+    flex: 1 1 40rem;
+}
+
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: black;
+}
+
+.about .row .content p{
+    line-height: 2;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+}
+.about .row .content button{
+    display: inline-block;
+    width: auto;
+}
+
+.reviews{
+    align-items: center;
+    padding-bottom: 3rem;
+    box-shadow: 10px;
+    background-color: rgb(239, 239, 239, 0.6);
+}
+
+.reviews h1{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+}

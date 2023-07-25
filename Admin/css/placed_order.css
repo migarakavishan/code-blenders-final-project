@@ -1,0 +1,68 @@
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    gap:1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ 
+ .box-container .box{
+    padding:2rem;
+    padding-top: 1rem;
+    border-radius: .5rem;
+    border:var(--border);
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+ }
+ 
+ .box-container .box p{
+    line-height: 1.5;
+    font-size: 2rem;
+    color:var(--light-color);
+    margin:1rem 0;
+ }
+ 
+ .box-container .box p span{
+    color:var(--main-color);
+ }
+ 
+ .box-container .select{
+    margin-bottom: .5rem;
+    width: 100%;
+    background-color: var(--light-bg);
+    padding:1rem;
+    font-size: 1.8rem;
+    color:var(--black);
+    border-radius: .5rem;
+    border:var(--border);
+ }
+
+
+.delete-btn,
+.option-btn{
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+   border-radius: .5rem;
+   padding:1rem 3rem;
+   font-size: 1.7rem;
+   text-transform: capitalize;
+   color:var(--white);
+   cursor: pointer;
+   text-align: center;
+}
+
+
+
+ .option-btn{
+    background-color: var(--orange);
+ }
+ 
+ .delete-btn{
+    background-color: var(--red);
+ }
+ 
+ .flex-btn{
+    display: flex;
+    gap:1rem;
+ }

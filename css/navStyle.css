@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --main-color: #0098da;
+  --orange: #f39c12;
+  --red: #e74c3c;
+  --white: #ffffff;
+  --light-bg: #efefef;
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, 0.2);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+#navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#navcolor {
+  color: black;
+  margin-left: 10rem;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.search-form form {
+  display: flex;
+  gap: 2rem;
+}
+
+.search-form form input {
+  width: 900px;
+  height: 50px;
+  border: 2rem;
+  border-radius: 0.5rem;
+  color: black;
+  padding-left: 1.4rem;
+}
+
+.search-form form button {
+  border-radius: 0.5rem;
+  width: 50px;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.nav1-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  width: 20rem;
+}
+
+.nav2-icon {
+  padding-top: 1.1rem;
+  margin-right: 20rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: white;
+  /* padding-bottom: 7rem; */
+}
+
+.footer .grid {
+  display: grid;
+  grid-template-columns: 20rem 20rem 25rem 20rem;
+  grid-gap: 2rem;
+  margin-left: 15rem;
+}
+
+.footer .grid .box h3 {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-right: 8rem;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.footer .grid .box a {
+  display: block;
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: var(--light-color);
+}
+
+.footer .grid .box a i {
+  color: var(--main-color);
+  transition: 0.2s linear;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+#profile-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#profile-content li a {
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#profile-content {
+  position: absolute;
+  top: 81px;
+  right: 15%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: none;
+  cursor: default;
+  border-radius: 10px;
+}
+
+#profile-content img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#profile-content ul {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+#profile-content ul li {
+  margin-bottom: 5px;
+}
