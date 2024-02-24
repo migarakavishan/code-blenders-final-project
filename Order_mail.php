@@ -55,8 +55,8 @@ if (mysqli_num_rows($result) > 0) {
     $mail->Host = 'smtp.gmail.com'; // Use Gmail SMTP server
     $mail->SMTPAuth = true;
 
-    $mail->Username = 'migarakavishan43@gmail.com'; // Your Gmail address
-    $mail->Password = 'iqgmtkewuznmcuvm'; // Your Gmail password
+    $mail->Username = 'donpharmacy45@gmail.com'; // Your Gmail address
+    $mail->Password = 'cbhzxwepmvcrpphc'; // Your Gmail password
 
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
@@ -87,10 +87,11 @@ if (mysqli_num_rows($result) > 0) {
 
     
     $mail->Body = $htmlContent;
- 
+
+    // Attach the QR code image to the email
     $mail->addStringAttachment($imageData, $filename, 'base64', 'image/png');
-    
-   
+
+    // Send the email
     if ($mail->send()) {
         echo "Email sent successfully.";
         $QRstatus = 'sent';

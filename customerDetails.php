@@ -36,7 +36,7 @@ $row = mysqli_fetch_assoc($result);
         </tr>
         <tr>
           <th>Email:</th>
-          <td><input type="email" name="email" id="email" value="<?php echo $row['email']; ?>" readonly></td>
+          <td><input type="email" class="email" name="email" id="email" value="<?php echo $row['email']; ?>" readonly></td>
         </tr>
         <tr>
           <th>Phone:</th>

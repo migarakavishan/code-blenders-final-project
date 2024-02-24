@@ -24,6 +24,10 @@ body {
   border-radius: .5rem;
 }
 
+.email{
+  width: 100%;
+}
+
 h1 {
   font-size: 24px;
   margin-top: 0;
